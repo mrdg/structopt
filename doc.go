@@ -23,8 +23,8 @@ configured by  passing the flag -query.timeout, setting an environment variable
 APP_QUERY_TIMEOUT, or by setting a value on the struct directly. This is also
 the order of precendence.
 
-Supported field types are string, bool, int, uint64, int64, float64, time.Duration,
- url.URL plus any type that implements the flag.Value interface.
+Supported field types are string, bool, int, uint64, int64, float64,
+time.Duration, url.URL plus any type that implements the flag.Value interface.
 
 */
 package structopt
